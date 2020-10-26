@@ -10,6 +10,8 @@ tags:
     - vps
     - 私有云
 ---
+
+```
 nextcloud:
 
   image: wonderfall/nextcloud
@@ -101,4 +103,4 @@ nextcloud-db:
     - MYSQL_PASSWORD=数据库 nextcloud 账号密码
 
   restart: always
-
+```
